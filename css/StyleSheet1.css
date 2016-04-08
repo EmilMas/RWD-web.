@@ -1,0 +1,441 @@
+﻿html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    background-color: #f3f3f3;
+    font-family: "Open Sans";
+    color: #37474F;
+    
+}
+.page-header {
+    text-align: center;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    position: absolute;
+
+    width: 100%;
+   
+    box-sizing: border-box;
+    transition: background 0.4s;
+    transition: box-shadow 0,8s;
+ 
+}
+
+.page-nav .hamburger {
+    border: 0;
+    background: 0;
+    position: absolute;
+    height: 30px;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    fill: #FFFFFF;
+    overflow: hidden;
+   
+
+}
+
+.page-nav .hamburger .hamburger-icon {
+    height: 6px;
+    width: 18px;
+    
+}
+
+.page-nav .hamburger .close-icon {
+    width: 14px;
+    height: 14px;
+    display: none;
+    
+}
+
+
+.page-nav .navigation-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+.page-nav .navigation-menu li {
+    border-bottom: 5px solid #F5F7F8;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+}
+
+.page-nav .navigation-menu li a {
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #000000;
+    text-decoration: none;
+    border: 3px solid #7DCF99;
+    border-radius: 30px;
+    padding-right: 30px;
+    padding-left: 30px; 
+
+}
+.page-nav .navigation-menu li a:hover {
+    color: #78909C;
+    text-decoration: none;
+  
+
+}
+
+.page-header.nav-opened {
+    background: #FAFCFC;
+   -webkit-box-shadow: 0px 20px 39px -13px rgba(29,133,83,1);
+   -moz-box-shadow: 0px 20px 39px -13px rgba(29,133,83,1);
+    box-shadow: 0px 20px 39px -13px rgba(29,133,83,1);
+
+}
+
+.page-header.nav-opened .page-nav .hamburger {
+    fill: #000000;
+}
+
+.page-header.nav-opened .page-nav .hamburger .hamburger-icon {
+    display: none;
+}
+
+.page-header.nav-opened .page-nav .hamburger .close-icon {
+    display: inline-block;
+}
+
+.page-header.nav-opened .navigation-menu{
+    display: block;
+}
+
+.section .section-header {
+  box-sizing: border-box;
+  background: url(../img/Azul.jpg) no-repeat;
+  background-size: auto;
+  background-position: 70%;
+
+  min-height: 80vh;
+
+  padding: 20px;
+  padding-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.section-title {
+    margin: 0;
+    font-weight: normal;
+    font-size: 4.1rem;
+    padding-bottom: 24px;
+    text-shadow:
+        2px 2px 0 #37474F,
+        22px 2px 0 #37474F,
+        -2px -2px 0 #37474F,
+        2px -2px 0 #37474F;
+    
+}
+
+.section-lead{
+    font-size: 2.1rem;
+    font-weight: 300;
+    padding-bottom: 44px;
+    margin: 0;
+
+}
+.section-sidebar .section-picture{
+    margin: 0;
+    margin-bottom: 60px;
+}
+.section-sidebar .section-picture img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.section-sidebar .section-picture .caption{
+    color: #78909C;
+    font-style: italic;
+    text-align: center;
+}
+.section-sidebar .section-picture .caption:after{
+    display: block;
+    font-size: 2.1rem;
+    content: "♦";
+}
+.section-sidebar{
+    border-top: 1px solid #ECEFF1;
+    border-bottom: 1px solid #ECEFF1;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: calc(100%-30px);
+    margin: auto;
+    padding-left:0;
+    padding-right:0;
+}
+.section-content p {
+    margin-bottom: 30px;
+}
+.Wrens-picture {
+    max-width: 80px;
+    border-radius: 70%;
+    margin: 30px;
+
+}
+.section-author-name{
+    color: #17C4AD;
+    font-size: 1.4rem;
+    margin: 0;
+    
+}
+.section-author-name::after{
+    
+    display: block;
+    color: #FFFFFF;
+    font-size: 6.2rem;
+    content: "♛";
+}
+
+.section-date{
+    font-size: 2.4rem;
+ 
+}
+.section-container,
+.section-sidebar{
+    padding: 18px;
+    box-sizing: border-box;
+}
+.section-container{
+    padding: 20px;
+    padding-top: 80px;
+    line-height: 28px;
+}
+
+.section-container p {
+    margin-top: 0;
+}
+.link {
+    text-align: center;
+
+}
+.page-footer{
+    text-align: center;
+    background-color: #31CDE2;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    
+    position: absolute;
+
+    width: 100%;
+   
+    box-sizing: border-box;
+    transition: background 0.4s;
+    transition: box-shadow 0,8s;
+}
+
+.page-nav_footer .hamburger_footer {
+    border: 0;
+    background: 0;
+    position: absolute;
+    left: 22px;
+    bottom: 24px;
+    fill: #FFFFFF;
+    width: 32px;
+    height: 32px;
+
+}
+
+.page-nav_footer .hamburger_footer .hamburger-icon_footer {
+    width: 18px;
+    height: 6px;
+}
+
+.page-nav_footer .hamburger_footer .close-icon_footer {
+    display: none;
+    width: 16px;
+}
+
+
+.page-nav_footer .navigation-menu_footer {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: none;
+    text-align: center;
+}
+
+.page-nav_footer .navigation-menu_footer li {
+    border-bottom: 5px solid #F5F7F8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.page-nav_footer .navigation-menu_footer li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border: 3px solid #7DCF99;
+    border-radius: 30px;
+    padding: 12px;
+    padding-right: 22px;
+    padding-left: 22px; 
+
+}
+.page-nav_footer .navigation-menu_footer li a:hover {
+    text-decoration: none;
+    color: #78909C;
+    
+}
+
+.page-footer.nav-opened_footer {
+    background: #FAFCFC;
+   -webkit-box-shadow: 0px -20px 39px -13px rgba(29,133,83,1);
+   -moz-box-shadow: 0px -20px 39px -13px rgba(29,133,83,1);
+    box-shadow: 0px -20px 39px -13px rgba(29,133,83,1);
+}
+
+.page-footer.nav-opened_footer .page-nav_footer .hamburger_footer {
+    fill: #000000;
+}
+
+.page-footer.nav-opened_footer .page-nav_footer .hamburger_footer .hamburger-icon_footer {
+    display: none;
+}
+
+.page-footer.nav-opened_footer .page-nav_footer .hamburger_footer .close-icon_footer {
+    display: inline-block;
+}
+
+.page-footer.nav-opened_footer .navigation-menu_footer {
+    display: block;
+}
+.page-footer .copyright {
+    margin: 12px;
+    color: #78909C;
+    content: "©";
+   
+}
+
+.scrollup {
+    width: 64px;
+    height: 64px;
+    text-decoration: none;
+    background: url(../img/up.png) no-repeat;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: none;
+}
+
+@media (min-width: 40em) {
+  
+.page-header {
+    max-width: 1080px;
+    margin: auto;
+    right: 0;
+    left: 0;
+} 
+    
+    
+    
+.page-nav .hamburger {
+    display: none;
+}
+
+.page-nav {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+}
+.page-nav .navigation-menu{
+    display: block;
+}
+
+.page-nav .navigation-menu li {
+    display: inline-block;
+    border: 0;
+    
+    margin-right: 50px;
+}
+.page-footer .navigation-menu li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border: 3px solid #00BAA5;
+    border-radius: 27px;
+    padding: 12px;
+    padding-right: 22px;
+    padding-left: 22px; 
+
+}
+.page-nav .navigation-menu li:last-child {
+    margin: 0;
+}
+.page-nav .navigation-menu li a{
+    color: #FFFFFF;
+}
+.page-footer .navigation-menu li a:hover{
+    color: #78909C;
+    text-decoration: none;
+}
+
+.section-content {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.section-container{
+    -webkit-column-count: 3;
+    column-count: 3;
+    -moz-column-count: 3;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.section-sidebar {
+    margin: 0;
+}
+.section-sidebar-content{
+    max-width: 587px;
+    margin: auto;
+}
+.section .article-header {
+    padding-top: 218px;
+    padding-bottom: 103px;
+}
+.section-lead{
+    padding-bottom: 78px;
+}
+.scrollup {
+    width: 64px;
+    height: 64px;
+    text-decoration: none;
+    background: url(../img/up.png) no-repeat 0px 0px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    display: none;
+    box-sizing: border-box;
+    color: #808080;
+    
+   
+}
+
+}
