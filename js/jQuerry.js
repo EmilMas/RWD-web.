@@ -27,6 +27,6 @@ jQuery(function ($) {
     $('#link22').click(function () { $.scrollTo($('#link2-scroll'), 800); });
     $('#link33').click(function () { $.scrollTo($('#link3-scroll'), 800); });
     $('#link44').click(function () { $.scrollTo($('#link4-scroll'), 800); });
-    $('.scrollup').click(function () { $.scrollTo($('.pate-header'), 1200); });
+    $('.scrollup').click(function () { $.scrollTo($('.page-header'), 1200); });
 }
      );
