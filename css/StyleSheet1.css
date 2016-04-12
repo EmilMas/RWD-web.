@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 1.6rem;
-    background-color: #f3f3f3;
+    background-color: #D9D9D9;
     font-family: "Open Sans";
     color: #37474F;
     
@@ -169,6 +169,8 @@ body {
     color: #78909C;
     font-style: italic;
     text-align: center;
+   
+
 }
 .section-sidebar .section-picture .caption:after{
     display: block;
@@ -340,6 +342,7 @@ body {
     right: 20px;
     bottom: 20px;
     display: none;
+    
 }
 
 @media (min-width: 40em) {
@@ -431,6 +434,7 @@ body {
     position: fixed;
     right: 40px;
     bottom: 40px;
+    
     display: none;
     box-sizing: border-box;
     color: #808080;
