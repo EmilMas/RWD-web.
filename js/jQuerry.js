@@ -9,7 +9,7 @@
 }
      );
 
-//speed of scrolling
+//speed of scrolling of scrollup button
 
 $(window).scroll(function () {
     if ($(this).scrollTop() > 300) $('.scrollup').fadeIn();
