@@ -103,7 +103,7 @@ body{
 .section .section-header{
   box-sizing: border-box;
   background: url(../img/Azul.jpg) no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-position: 70%;
   min-height: 80vh;
   padding: 20px;
